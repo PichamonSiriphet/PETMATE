@@ -14,7 +14,7 @@ app.use(morgan("dev"))
 //route
 app.get("*", (req, res) => {
     res.json({
-        data:"massege from server"
+        data:"massege from servers"
     })
 })
 
